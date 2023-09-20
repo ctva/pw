@@ -1,0 +1,80 @@
+header {
+  background-color: #2d3436;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+#navbar {
+  background-color: #636e72;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #b2bec3;
+  color: black;
+}
+
+.container {
+  width: auto;
+  height: 100%;
+  margin: 3px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.konten-klik {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  width: 20%;
+  background-color: #fff;
+}
+
+.konten-gambar {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  background-color: #fff;
+}
+
+footer {
+  background-color: #2d3436;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.gambar {
+  width: 100%;
+  height: 85%;
+  border-radius: 8px;
+}
