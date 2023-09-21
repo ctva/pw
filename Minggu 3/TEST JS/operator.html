@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gabungan Kode</title>
+</head>
+
+<body>
+    <script>
+        // buat variabel
+        var name = "JGDT";
+        var jumlahPengunjung = "50322";
+        var yangAktif = true;
+        var url = "https://ctva.github.io";
+        var yakin = confirm("Apakah anda yakin ingin mengunjungi website ctva?")
+
+        // fungsi untuk menentukan aksi setelah user memutuskan untuk mengunjungi website eksternal atau tidak
+        if (yakin) {
+            alert("Tunggu bentar yahhh");
+            window.location.href = url;
+        } else {
+            alert("Yaudah disini aja yahhh");
+        }
+
+        var ygbener = prompt("haiyyaaaaaa?", "");
+
+        // menampilkan variabel ke jendela dialog (alert)
+        alert("Halo " + ygbener + " selamat datang di " + name);
+
+        // menampilkan variabel ke dalam HTML
+        document.write("<p>woilah " + ygbener + "</p>");
+        document.write("Nama Situs : " + name + "<br>");
+        document.write("Jumlah Pengunjung : " + jumlahPengunjung + "<br>");
+        document.write("Status Aktif : " + yangAktif + "<br>");
+        document.write("Alamat URL : " + url + "<br>");
+
+        // Gabungkan dengan kode Operator Perbandingan
+        var aku = 11;
+        var kamu = 10;
+
+        // sama dengan
+        var hasil = aku == kamu;
+        document.write(`${aku} == ${kamu} = ${hasil}<br/>`);
+
+        // lebih besar
+        var hasil = aku > kamu;
+        document.write(`${aku} > ${kamu} = ${hasil}<br/>`);
+
+        // lebih besar sama dengan
+        var hasil = aku >= kamu;
+        document.write(`${aku} >= ${kamu} = ${hasil}<br/>`);
+
+        // lebih kecil
+        var hasil = aku < kamu;
+        document.write(`${aku} < ${kamu} = ${hasil}<br/>`);
+
+        // lebih kecil sama dengan
+        var hasil = aku <= kamu;
+        document.write(`${aku} <= ${kamu} = ${hasil}<br/>`);
+    </script>
+    <button onClick="alert('Tombol diklik!')">Klik saya</button>
+</body>
+
+</html>
